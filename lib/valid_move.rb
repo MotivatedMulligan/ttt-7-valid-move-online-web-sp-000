@@ -9,7 +9,7 @@ def valid_move?(board, index)
    false
   end
  def on_board?(board, index)
-    if index.between(1, 9)
+    if index.between?(1, 9)
       return true
     else
       return false
