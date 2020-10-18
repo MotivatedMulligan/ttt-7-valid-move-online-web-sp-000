@@ -2,8 +2,8 @@
 def valid_move?(board, index)
   if 
     index == 1..9
-    true
-    elsif
+   true
+  elsif
     (index == 1..9) && (position_taken? == true)
    true
   else 
